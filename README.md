@@ -7,6 +7,8 @@
 [![TPC-H](https://img.shields.io/badge/TPC--H-100GB%20Dataset-orange?style=for-the-badge)](README.md)
 [![Platforms](https://img.shields.io/badge/Platforms-12%20Data%20Warehouses-purple?style=for-the-badge)](README.md)
 
+> **Developed by Christopher Daniel** for [Estuary](https://estuary.dev), a New York-based real-time data integration startup
+
 <div align="center">
 
 ![Google SEO Ranking](google-seo-ranking.png)
