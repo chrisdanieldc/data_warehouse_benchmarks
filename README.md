@@ -111,6 +111,71 @@ data_science_projects/
 
 ### Core Components
 
+```mermaid
+flowchart TB
+    subgraph DataWarehouses["Data Warehouse Platforms"]
+        DW1[Snowflake]
+        DW2[BigQuery]
+        DW3[Redshift]
+        DW4[Azure Synapse]
+        DW5[Databricks]
+        DW6[ClickHouse]
+        DW7[Firebolt]
+        DW8[SingleStore]
+        DW9[MotherDuck]
+    end
+
+    subgraph Framework["Benchmarking Framework"]
+        subgraph DAL["1. Database Abstraction Layer"]
+            CM[Connection Managers]
+            AUTH[Authentication Handler<br/>OAuth2, Tokens, Service Accounts]
+            UNI[Unified Query Interface]
+        end
+
+        subgraph QEE["2. Query Execution Engine"]
+            NORM[SQL Dialect Normalization]
+            CACHE[Cache Invalidation]
+            ERROR[Error & Timeout Handling]
+            CONC[Concurrent Execution]
+        end
+
+        subgraph MCS["3. Metrics Collection System"]
+            CLIENT[Client-Side Timing]
+            NATIVE[Query History Integration]
+            METRICS[Bytes Scanned & Rows Tracking]
+            COST[Cost Correlation & Tagging]
+        end
+
+        subgraph RAP["4. Result Aggregation Pipeline"]
+            CSV[CSV Metrics Persistence]
+            STATS[Statistical Analysis]
+            VAR[Performance Variance]
+        end
+    end
+
+    subgraph Output["Output & Analysis"]
+        RESULTS[Performance Reports]
+        COMPARE[Platform Comparison]
+        INSIGHTS[Cost-Performance Insights]
+    end
+
+    DataWarehouses -->|TPC-H Queries<br/>100GB Dataset| DAL
+    DAL --> QEE
+    QEE --> MCS
+    MCS --> RAP
+    RAP --> Output
+
+    style DataWarehouses fill:#e1f5ff
+    style Framework fill:#fff4e1
+    style Output fill:#e8f5e9
+    style DAL fill:#bbdefb
+    style QEE fill:#c5cae9
+    style MCS fill:#b2dfdb
+    style RAP fill:#c8e6c9
+```
+
+**Component Details:**
+
 1. **Database Abstraction Layer**
    - Platform-specific connection managers
    - Unified interface for query execution
