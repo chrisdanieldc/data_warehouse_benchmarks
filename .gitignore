@@ -1,0 +1,96 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+env/
+ENV/
+
+# Virtual environments
+.venv
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Credentials
+*.json
+!package.json
+!tsconfig.json
+*credentials*
+*secret*
+*password*
+
+# Logs
+*.log
+logs/
+
+# Data files (optional - uncomment if you don't want to commit large data files)
+# *.csv
+# *.parquet
+# *.avro
+
+# Archive files
+*.zip
+
+# Personal interview preparation (keep local only)
+INTERVIEW_PREP.md
+
+# Results (optional - uncomment if you don't want to commit result files)
+# results/
+# output/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.tox/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Claude
+.claude/

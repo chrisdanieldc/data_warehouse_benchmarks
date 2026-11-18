@@ -1,0 +1,143 @@
+query_description,response_time_ms,official_time_ms,row_produced,warehouse,run_type
+Query-1,159.31367874145508,,1,my_engine,Linear
+Query-2,114.46857452392578,,1,my_engine,Linear
+Query-3,193.46094131469727,,400,my_engine,Linear
+Query-4,154.8011302947998,,0,my_engine,Linear
+Query-5,154.01458740234375,,0,my_engine,Linear
+Query-6,182.88230895996094,,0,my_engine,Linear
+Query-7,163.68794441223145,,0,my_engine,Linear
+Query-8,176.18966102600098,,0,my_engine,Linear
+Query-9,189.88513946533203,,0,my_engine,Linear
+Query-10,190.28043746948242,,0,my_engine,Linear
+Query-11,149.89972114562988,,0,my_engine,Linear
+Query-F,903.5203456878662,,262,my_engine,Linear
+Query-1,143.50652694702148,,1,my_engine,Linear
+Query-2,213.41466903686523,,1,my_engine,Linear
+Query-3,181.92481994628906,,400,my_engine,Linear
+Query-4,155.31539916992188,,0,my_engine,Linear
+Query-5,151.5498161315918,,0,my_engine,Linear
+Query-6,162.1570587158203,,0,my_engine,Linear
+Query-7,159.26742553710938,,0,my_engine,Linear
+Query-8,170.19414901733398,,0,my_engine,Linear
+Query-9,155.68876266479492,,0,my_engine,Linear
+Query-10,183.26830863952637,,0,my_engine,Linear
+Query-11,152.4968147277832,,0,my_engine,Linear
+Query-F,921.7684268951416,,262,my_engine,Linear
+Query-1,125.15044212341309,,1,my_engine,Linear
+Query-2,122.08056449890137,,1,my_engine,Linear
+Query-3,164.31355476379395,,400,my_engine,Linear
+Query-4,149.83034133911133,,0,my_engine,Linear
+Query-5,151.23558044433594,,0,my_engine,Linear
+Query-6,146.0435390472412,,0,my_engine,Linear
+Query-7,205.5497169494629,,0,my_engine,Linear
+Query-8,185.88614463806152,,0,my_engine,Linear
+Query-9,164.17455673217773,,0,my_engine,Linear
+Query-10,443.85290145874023,,0,my_engine,Linear
+Query-11,123.00395965576172,,0,my_engine,Linear
+Query-F,906.9521427154541,,262,my_engine,Linear
+Query-1,140.96641540527344,0,1,my_engine,Linear
+Query-2,110.89682579040527,0,1,my_engine,Linear
+Query-3,158.13112258911133,0,400,my_engine,Linear
+Query-4,144.7126865386963,0,0,my_engine,Linear
+Query-5,175.89068412780762,0,0,my_engine,Linear
+Query-6,137.84384727478027,0,0,my_engine,Linear
+Query-7,171.9644069671631,0,0,my_engine,Linear
+Query-8,175.87018013000488,0,0,my_engine,Linear
+Query-9,162.92405128479004,0,0,my_engine,Linear
+Query-10,192.22021102905273,0,0,my_engine,Linear
+Query-11,122.41411209106445,0,0,my_engine,Linear
+Query-F,926.7756938934326,0,262,my_engine,Linear
+Query-1,152.3299217224121,"['62d7e422-ac21-46c6-943e-b5a5a3eb6bc6', 0]",1,my_engine,Linear
+Query-2,134.63401794433594,"['62d7e422-ac21-46c6-943e-b5a5a3eb6bc6', 0]",1,my_engine,Linear
+Query-3,178.73001098632812,"['62d7e422-ac21-46c6-943e-b5a5a3eb6bc6', 0]",400,my_engine,Linear
+Query-4,137.6059055328369,"['62d7e422-ac21-46c6-943e-b5a5a3eb6bc6', 0]",0,my_engine,Linear
+Query-5,153.14388275146484,"['62d7e422-ac21-46c6-943e-b5a5a3eb6bc6', 0]",0,my_engine,Linear
+Query-6,158.56051445007324,"['62d7e422-ac21-46c6-943e-b5a5a3eb6bc6', 0]",0,my_engine,Linear
+Query-7,163.47765922546387,"['62d7e422-ac21-46c6-943e-b5a5a3eb6bc6', 0]",0,my_engine,Linear
+Query-8,196.03848457336426,"['62d7e422-ac21-46c6-943e-b5a5a3eb6bc6', 0]",0,my_engine,Linear
+Query-9,174.0248203277588,"['aeec8222-98fe-45c2-bddc-1427bf4f9aad', 0]",0,my_engine,Linear
+Query-10,175.4012107849121,"['aeec8222-98fe-45c2-bddc-1427bf4f9aad', 0]",0,my_engine,Linear
+Query-11,309.3409538269043,"['aeec8222-98fe-45c2-bddc-1427bf4f9aad', 0]",0,my_engine,Linear
+Query-F,892.9753303527832,"['aeec8222-98fe-45c2-bddc-1427bf4f9aad', 0]",262,my_engine,Linear
+Query-1,131.59751892089844,"['096b2c3b-5fd4-48e7-b2db-c3b259119c15', 0]",1,my_engine,Linear
+Query-2,114.28022384643555,"['096b2c3b-5fd4-48e7-b2db-c3b259119c15', 0]",1,my_engine,Linear
+Query-3,168.25175285339355,"['096b2c3b-5fd4-48e7-b2db-c3b259119c15', 0]",400,my_engine,Linear
+Query-4,151.2773036956787,"['096b2c3b-5fd4-48e7-b2db-c3b259119c15', 0]",0,my_engine,Linear
+Query-5,177.05512046813965,"['096b2c3b-5fd4-48e7-b2db-c3b259119c15', 0]",0,my_engine,Linear
+Query-6,164.98756408691406,"['096b2c3b-5fd4-48e7-b2db-c3b259119c15', 0]",0,my_engine,Linear
+Query-7,172.4231243133545,"['096b2c3b-5fd4-48e7-b2db-c3b259119c15', 0]",0,my_engine,Linear
+Query-8,224.56645965576172,"['096b2c3b-5fd4-48e7-b2db-c3b259119c15', 0]",0,my_engine,Linear
+Query-9,160.09902954101562,"['096b2c3b-5fd4-48e7-b2db-c3b259119c15', 0]",0,my_engine,Linear
+Query-10,218.8582420349121,"['096b2c3b-5fd4-48e7-b2db-c3b259119c15', 0]",0,my_engine,Linear
+Query-11,164.4003391265869,"['096b2c3b-5fd4-48e7-b2db-c3b259119c15', 0]",0,my_engine,Linear
+Query-F,953.0656337738037,"['8ca03b45-b73b-4487-8bce-7888bc3a5305', 0]",262,my_engine,Linear
+Query-1,124.50480461120605,0,1,my_engine,Linear
+Query-2,107.95021057128906,0,1,my_engine,Linear
+Query-3,166.27979278564453,0,400,my_engine,Linear
+Query-4,147.30596542358398,0,0,my_engine,Linear
+Query-5,176.1760711669922,0,0,my_engine,Linear
+Query-6,151.40318870544434,0,0,my_engine,Linear
+Query-7,166.9938564300537,0,0,my_engine,Linear
+Query-8,195.43027877807617,0,0,my_engine,Linear
+Query-9,175.28891563415527,0,0,my_engine,Linear
+Query-10,190.40417671203613,0,0,my_engine,Linear
+Query-11,151.56102180480957,0,0,my_engine,Linear
+Query-F,915.2657985687256,0,262,my_engine,Linear
+Query-1,125.10919570922852,,1,my_engine,Linear
+Query-2,114.92705345153809,,1,my_engine,Linear
+Query-3,188.57502937316895,,400,my_engine,Linear
+Query-4,158.47253799438477,,0,my_engine,Linear
+Query-5,175.6572723388672,,0,my_engine,Linear
+Query-6,161.26132011413574,,0,my_engine,Linear
+Query-7,171.5700626373291,,0,my_engine,Linear
+Query-8,184.96465682983398,,0,my_engine,Linear
+Query-9,156.97216987609863,,0,my_engine,Linear
+Query-10,172.09982872009277,,0,my_engine,Linear
+Query-11,177.31142044067383,,0,my_engine,Linear
+Query-F,834.2270851135254,,262,my_engine,Linear
+Query-1,131.46686553955078,,1,my_engine,Linear
+Query-2,114.87102508544922,,1,my_engine,Linear
+Query-3,176.36942863464355,,400,my_engine,Linear
+Query-4,140.94829559326172,,0,my_engine,Linear
+Query-5,1365.7989501953125,,0,my_engine,Linear
+Query-6,468.7469005584717,,0,my_engine,Linear
+Query-7,183.5017204284668,,0,my_engine,Linear
+Query-8,209.2883586883545,,0,my_engine,Linear
+Query-9,15608.086824417114,,0,my_engine,Linear
+Query-10,199.75781440734863,,0,my_engine,Linear
+Query-11,1539.4105911254883,,0,my_engine,Linear
+Query-F,2445.118188858032,,262,my_engine,Linear
+Query-1,313.2774829864502,,1,my_engine,Linear
+Query-2,228.8992404937744,,1,my_engine,Linear
+Query-3,299.3428707122803,,400,my_engine,Linear
+Query-4,186.05303764343262,,0,my_engine,Linear
+Query-5,345.34263610839844,,0,my_engine,Linear
+Query-6,343.8289165496826,,0,my_engine,Linear
+Query-7,916.7509078979492,,0,my_engine,Linear
+Query-8,989.8476600646973,,0,my_engine,Linear
+Query-9,1221.707820892334,,0,my_engine,Linear
+Query-10,320.4638957977295,,0,my_engine,Linear
+Query-1,2339.2958641052246,,1,my_engine,Linear
+Query-2,548.8510131835938,,1,my_engine,Linear
+Query-3,785.3541374206543,,400,my_engine,Linear
+Query-4,148.6952304840088,,0,my_engine,Linear
+Query-5,173.69484901428223,,0,my_engine,Linear
+Query-6,155.14492988586426,,0,my_engine,Linear
+Query-7,170.92370986938477,,0,my_engine,Linear
+Query-8,505.3863525390625,,0,my_engine,Linear
+Query-9,186.47193908691406,,0,my_engine,Linear
+Query-10,191.87235832214355,,0,my_engine,Linear
+Query-11,1730.1013469696045,,0,my_engine,Linear
+Query-F,2375.701904296875,,262,my_engine,Linear
+Query-1,456.24732971191406,0,1,my_engine,Linear
+Query-2,1178.2279014587402,0,1,my_engine,Linear
+Query-3,554.1832447052002,0,400,my_engine,Linear
+Query-4,153.11503410339355,0,0,my_engine,Linear
+Query-5,469.4817066192627,0,0,my_engine,Linear
+Query-6,489.96472358703613,0,0,my_engine,Linear
+Query-7,573.3578205108643,0,0,my_engine,Linear
+Query-8,2263.444423675537,0,0,my_engine,Linear
+Query-9,2989.469289779663,0,0,my_engine,Linear
+Query-10,180.3872585296631,0,0,my_engine,Linear
+Query-11,152.7080535888672,0,0,my_engine,Linear
+Query-F,960.005521774292,0,262,my_engine,Linear
