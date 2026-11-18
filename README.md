@@ -112,66 +112,69 @@ data_science_projects/
 ### Core Components
 
 ```mermaid
-flowchart TB
-    subgraph DataWarehouses["Data Warehouse Platforms"]
-        DW1[Snowflake]
-        DW2[BigQuery]
-        DW3[Redshift]
-        DW4[Azure Synapse]
-        DW5[Databricks]
-        DW6[ClickHouse]
-        DW7[Firebolt]
-        DW8[SingleStore]
-        DW9[MotherDuck]
+graph LR
+    subgraph platforms["<b>Data Warehouse Platforms</b>"]
+        A1["☁️ Snowflake"]
+        A2["☁️ BigQuery"]
+        A3["☁️ Redshift"]
+        A4["☁️ Azure Synapse"]
+        A5["☁️ Databricks"]
+        A6["⚡ ClickHouse"]
+        A7["⚡ Firebolt"]
+        A8["⚡ SingleStore"]
+        A9["⚡ MotherDuck"]
     end
 
-    subgraph Framework["Benchmarking Framework"]
-        subgraph DAL["1. Database Abstraction Layer"]
-            CM[Connection Managers]
-            AUTH[Authentication Handler<br/>OAuth2, Tokens, Service Accounts]
-            UNI[Unified Query Interface]
-        end
-
-        subgraph QEE["2. Query Execution Engine"]
-            NORM[SQL Dialect Normalization]
-            CACHE[Cache Invalidation]
-            ERROR[Error & Timeout Handling]
-            CONC[Concurrent Execution]
-        end
-
-        subgraph MCS["3. Metrics Collection System"]
-            CLIENT[Client-Side Timing]
-            NATIVE[Query History Integration]
-            METRICS[Bytes Scanned & Rows Tracking]
-            COST[Cost Correlation & Tagging]
-        end
-
-        subgraph RAP["4. Result Aggregation Pipeline"]
-            CSV[CSV Metrics Persistence]
-            STATS[Statistical Analysis]
-            VAR[Performance Variance]
-        end
+    subgraph layer1["<b>1. Database Abstraction Layer</b>"]
+        B1["🔌 Connection Managers"]
+        B2["🔐 Authentication<br/>OAuth2 | Tokens | ODBC"]
+        B3["🔄 Unified Interface"]
     end
 
-    subgraph Output["Output & Analysis"]
-        RESULTS[Performance Reports]
-        COMPARE[Platform Comparison]
-        INSIGHTS[Cost-Performance Insights]
+    subgraph layer2["<b>2. Query Execution Engine</b>"]
+        C1["📝 SQL Normalization"]
+        C2["🚫 Cache Control"]
+        C3["⚠️ Error Handling"]
+        C4["⚡ Concurrent Execution"]
     end
 
-    DataWarehouses -->|TPC-H Queries<br/>100GB Dataset| DAL
-    DAL --> QEE
-    QEE --> MCS
-    MCS --> RAP
-    RAP --> Output
+    subgraph layer3["<b>3. Metrics Collection</b>"]
+        D1["⏱️ Execution Time"]
+        D2["📊 Query History"]
+        D3["💾 Data Scanned"]
+        D4["💰 Cost Tracking"]
+    end
 
-    style DataWarehouses fill:#e1f5ff
-    style Framework fill:#fff4e1
-    style Output fill:#e8f5e9
-    style DAL fill:#bbdefb
-    style QEE fill:#c5cae9
-    style MCS fill:#b2dfdb
-    style RAP fill:#c8e6c9
+    subgraph layer4["<b>4. Result Aggregation</b>"]
+        E1["📄 CSV Export"]
+        E2["📈 Statistical Analysis"]
+        E3["📉 Variance Reports"]
+    end
+
+    subgraph output["<b>Insights & Reports</b>"]
+        F1["📊 Performance<br/>Comparison"]
+        F2["💡 Optimization<br/>Recommendations"]
+    end
+
+    platforms ==>|"TPC-H Queries<br/>(100GB Dataset)"| layer1
+    layer1 ==> layer2
+    layer2 ==> layer3
+    layer3 ==> layer4
+    layer4 ==> output
+
+    classDef platformStyle fill:#2196F3,stroke:#1976D2,stroke-width:2px,color:#fff
+    classDef layer1Style fill:#4CAF50,stroke:#388E3C,stroke-width:2px,color:#fff
+    classDef layer2Style fill:#FF9800,stroke:#F57C00,stroke-width:2px,color:#fff
+    classDef layer3Style fill:#9C27B0,stroke:#7B1FA2,stroke-width:2px,color:#fff
+    classDef layer4Style fill:#00BCD4,stroke:#0097A7,stroke-width:2px,color:#fff
+    classDef outputStyle fill:#F44336,stroke:#D32F2F,stroke-width:2px,color:#fff
+
+    class A1,A2,A3,A4,A5,A6,A7,A8,A9 platformStyle
+    class B1,B2,B3 layer1Style
+    class C1,C2,C3,C4 layer2Style
+    class D1,D2,D3,D4 layer3Style
+    class E1,E2,E3 layer4Style
+    class F1,F2 outputStyle
 ```
 
 **Component Details:**
