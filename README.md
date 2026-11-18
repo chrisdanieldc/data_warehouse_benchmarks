@@ -1,5 +1,20 @@
 # Enterprise Data Warehouse Benchmarking Framework
 
+<div align="center">
+
+![Google SEO Ranking](google-seo-ranking.png)
+
+**🏆 #1 Ranked on Google for "Data Warehouse Benchmark Report"**
+
+[![SEO](https://img.shields.io/badge/Google%20Ranking-%231-success?style=for-the-badge&logo=google)](https://www.google.com/search?q=data+warehouse+benchmark+report)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/chrisdanieldc/data_warehouse_benchmarks)
+[![TPC-H](https://img.shields.io/badge/TPC--H-100GB%20Dataset-orange?style=for-the-badge)](README.md)
+[![Platforms](https://img.shields.io/badge/Platforms-12%20Data%20Warehouses-purple?style=for-the-badge)](README.md)
+
+</div>
+
+---
+
 A comprehensive performance benchmarking and cost analysis framework for evaluating enterprise data warehouses across cloud platforms. This project provides standardized comparison of 12 analytical databases using industry-standard TPC-H workloads on 100GB datasets.
 
 ## Overview
